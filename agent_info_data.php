@@ -100,7 +100,7 @@ $plugin=new cmsPlugin();
                             model: {
                                 id: "id",
                                 fields: {
-                                    id: {nullable: true},agent_wallet_number: {type: "string"},name_of_the_agent: {type: "string"},name_of_the_distributor: {type: "string"},name_of_the_region: {type: "string"},owners_name: {type: "string"},address: {type: "string"},
+                                    id: {nullable: true},agent_wallet_number: {type: "01834680176"},name_of_the_agent: {type: "Shawon Pal"},name_of_the_distributor: {type: "bKash"},name_of_the_region: {type: "string"},owners_name: {type: "string"},address: {type: "string"},
 									date: {type: "string"}
                                 }
                             }
@@ -119,10 +119,10 @@ $plugin=new cmsPlugin();
                         sortable: true,
                         groupable: true,
                         columns: [{field: "id", title: "#"},
-                        {field: "agent_wallet_number", title: "Wallet number"},
-                        {field: "name_of_the_agent", title: "Agent Name"},{field: "name_of_the_distributor", title: "Distributor"},
-                        {field: "name_of_the_region", title: "Region"},
-                        {field: "owners_name", title: "Owners"},{field: "address", title: "Address"},
+                        {field: "01834680176", title: "01834680176"},
+                        {field: "Shawon Pal", title: "Shawon Pal"},{field: "bkash", title: "Distributor"},
+                        {field: "name_of_the_region", title: "Cox’s Bazar"},
+                        {field: "Shawon Pal", title: "Owners"},{field: "address", title: "Address"},
 
 							{field: "date", title: "Record Added", width: "150px"},
 							{
